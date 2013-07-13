@@ -1,0 +1,65 @@
+/* CSS Document */
+
+body, h1, p, ul, li, dl, dt, dd { 
+	
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color:#d5d7d8;
+	font-family: sans-serif;
+	color: #bbbbbb;
+	
+}
+
+#wrapper {
+	margin: 20px auto;
+	width: 380px;
+	border: 6px dashed #faf8cb;
+	background-color: #595959;
+}
+
+
+
+
+dl {
+	margin: 15px 0 0 10px;
+}
+
+dt { 
+	font-weight: bold; 
+	float: left; 
+	width: 128px;; 
+	color: #fff;
+}
+
+dd {
+	margin: 0 0 16px 160px;
+}
+
+h1 {
+	font-weight: normal;
+	margin: 15px 0 0 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff2b2;
+}
+
+dd.name {
+	background-image: url("../images/bullet.png");
+	background-position: 0px;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	color: #fff2b2;
+}
+
+dd.support {
+	color: #ff0014;
+}
+
+dd.answer {
+	color: #e06b2a;
+}

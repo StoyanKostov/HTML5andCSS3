@@ -1,0 +1,85 @@
+html, body, nav, section, article, aside, footer, time, ul, li, a , hgroup, h1, h2, p  { 
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	color: #000;
+}
+
+body {
+	font-size: 62.5%;
+}
+
+ul {
+	margin-top: 30px;
+	list-style-type: none;
+}
+
+li {
+	display: block;
+	margin: 0 10px 15px 0;
+	padding-left: 20px;
+	width: 50px;
+	height: 16px;
+	font-size: 0.7em;
+	text-transform:capitalize;
+	float: left;
+}
+
+.float-clear {
+	display: inline-block;
+	display: block;
+	zoom:1;
+}
+
+.float-clear:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear:both;
+}
+
+#wrapper {
+	margin: 15px auto;
+	width: 960px;
+}
+
+.icon {
+	background: url('../images/icons.png') no-repeat;
+}
+
+.comment{ background-position: 0 0; } 
+.comment_add{ background-position: 0 -17px; } 
+.comment_delete{ background-position: 0 -34px; } 
+.comment_edit{ background-position: 0 -51px; } 
+.comments{ background-position: 0 -68px; } 
+.comments_add{ background-position: 0 -85px; } 
+.comments_delete{ background-position: 0 -102px; } 
+.folder{ background-position: 0 -119px; } 
+.folder_add{ background-position: 0 -136px; } 
+.folder_delete{ background-position: 0 -153px; } 
+.folder_edit{ background-position: 0 -170px; } 
+.group{ background-position: 0 -187px; } 
+.group_add{ background-position: 0 -204px; } 
+.group_delete{ background-position: 0 -221px; } 
+.group_edit{ background-position: 0 -238px; } 
+.page_white{ background-position: 0 -255px; } 
+.page_white_acrobat{ background-position: 0 -272px; } 
+.page_white_actionscript{ background-position: 0 -289px; } 
+.page_white_add{ background-position: 0 -306px; } 
+.page_white_c{ background-position: 0 -323px; } 
+.page_white_camera{ background-position: 0 -340px; } 
+.page_white_cplusplus{ background-position: 0 -357px; } 
+.page_white_csharp{ background-position: 0 -374px; } 
+.page_white_cup{ background-position: 0 -391px; } 
+.page_white_delete{ background-position: 0 -408px; } 
+.page_white_edit{ background-position: 0 -425px; } 
+.page_white_excel{ background-position: 0 -442px; } 
+.page_white_php{ background-position: 0 -459px; } 
+.page_white_powerpoint{ background-position: 0 -476px; } 
+.page_white_ruby{ background-position: 0 -493px; } 
+.user{ background-position: 0 -510px; } 
+.user_add{ background-position: 0 -527px; } 
+.user_delete{ background-position: 0 -544px; } 
+.user_edit{ background-position: 0 -561px; } 
+
+

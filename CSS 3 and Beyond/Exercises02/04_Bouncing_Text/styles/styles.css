@@ -1,0 +1,60 @@
+#animation {
+width: 600px;
+height: 600px;
+
+}
+
+@-webkit-keyframes pulsing {
+	0% {
+		font-size: 10px;
+		-webkit-transform:translate(60px, 10px);
+	}
+	33% {
+		font-size: 30px;
+		color:rgba(255,0,0,0.2);
+		-webkit-transform:translate(520px, 30px);				
+	}
+	66% {
+		font-size: 25px;
+		color:rgba(255,0,0,0.9);
+		-webkit-transform:translate(100px, 500px);
+	}
+	100% {
+		font-size: 10px;
+		color:rgba(255,0,0,0.9);
+		-webkit-transform:translate(120px, 30px);
+	}
+}
+@-moz-keyframes pulsing {
+	0% {
+		font-size: 10px;
+		-moz-transform:translate(60px, 10px);
+	}
+	33% {
+		font-size: 25px;
+		color:rgba(255,0,0,0.9);
+		-moz-transform:translate(520px, 30px);
+	}
+	66% {
+		font-size: 30px;
+		color:rgba(255,0,0,0.9);
+		-moz-transform:translate(100px, 500px);
+	}
+	100% {
+		font-size: 10px;
+		color:rgba(255,0,0,0.9);
+		-moz-transform:translate(120px, 30px);
+	}
+}
+
+#over:hover #animation {
+	-webkit-animation-name: pulsing;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;	
+	
+	-moz-animation-name: pulsing;
+	-moz-animation-duration: 5s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction: alternate;
+}

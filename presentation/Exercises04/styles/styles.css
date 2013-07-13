@@ -1,0 +1,105 @@
+body, div, h1, a, dd {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+#wrapper {
+	margin: 0px auto;
+	width: 1502px;
+	height: 1127px;
+	background-image: url(../images/bg.jpg)
+}
+
+#wrapper img {
+	float: left;
+}
+
+a, a:hover, a:visited, a:active {
+	color: #76b200;
+	font-size: 35px;
+}
+
+#heading {
+	margin: 133px 183px 0 0;
+}
+
+h1.position {
+	font-size:72px;
+	float: right;
+	color: #d4ff5b;
+}
+
+.logo {
+	margin: 50px 0 0 25px;
+}
+.chavka {
+	margin: 100px 0 0 110px;
+}
+.screenshot {
+	margin: 80px 0 0 136px;
+}
+
+.css {
+	margin: 107px 0 0 115px;
+}
+
+.pensil {
+	margin: 107px 0 0 115px;
+}
+
+hr {
+	border: 0;
+	border-left: 15px solid #879193;
+	border-right: 15px solid #879193;
+	border-radius: 10px;
+	height: 10px;
+	box-shadow: 3px 3px 2px #000;
+	color: #879193;
+	background-color: #879193;
+	width: 730px;
+	margin-right: 190px;
+}
+
+/*--Namiram za absolutno bezmisleno otrajenieto da se pravi kato *.png s prozra4nost, a ot javascript nisto ne razbiram--*/
+/*--Ako fona beshe pluten cvyat, bih slojil gardient ot plutniya cvyat do prozra4nost vurhu otrajenieto za postigane na efecta ot slaida--*/
+.ref {
+	-webkit-transform: scaleY(-1);
+	-moz-transform: scaleY(-1);
+	-ms-transform: scaleY(-1);
+	-o-transform: scaleY(-1);
+	transform: scaleY(-1);
+	filter: flipv; /*--IE--*/
+	opacity:0.30;
+	filter: alpha(opacity='30');
+}
+
+.name {
+	color: #deff9b;
+	font-size: 55px;
+}
+
+.ocup {
+	color: #488500;
+	font-size: 45px;
+}
+
+.course {
+	color: #f5ffd6;
+	font-size: 40px;
+}
+
+.fleft {
+	float: left;
+} 
+
+.clear {
+	clear: both;
+}
+
+dl {
+	margin-left: 25px;
+}

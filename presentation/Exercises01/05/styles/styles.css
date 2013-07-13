@@ -1,0 +1,96 @@
+body {
+}
+
+#wrapper {
+margin: 20px auto;
+padding: 0;
+width: 710px;
+border-radius: 3px;
+border: 9px solid #7279c3;
+font-family: sans-serif;
+color: #80878d;
+}
+
+nav {
+margin: 5px;
+}
+
+nav button {
+border-radius: 3px;
+color: #80878d;
+background-color: #e3e3e3;
+cursor: pointer;
+box-shadow: -2px -2px 5px rgba(0,0,0,.25) inset, 2px 2px 5px white inset;
+border: 1px solid #d7d7d7;
+margin: 2px;
+}
+
+header, th {
+background-color: #e0e0e0;
+text-transform:uppercase;
+padding: 10px;
+text-shadow: -1px -1px 1px rgba(0,0,0,.25), 1px 1px 1px white;
+box-shadow: -2px -2px 2px rgba(0,0,0,.25) inset, 2px 2px 2px white inset;
+font-weight: normal;
+}
+.left {
+float: right;
+}
+
+table {
+width: 530px;
+border-collapse: collapse;
+}
+
+.days {
+text-align: center;
+color: #000;
+}
+
+tr.days td {
+height: 15px;
+text-align:center;
+}
+
+td {
+height: 60px;
+vertical-align: top;
+text-align:right;
+border: 1px solid #cccccc;
+cellspacing; border-collapse;
+padding: 5px;
+}
+td:hover {
+background-color: #ffffcd;
+}
+
+.next {
+color: #cccccc;
+}
+
+section {
+margin: 5px;
+}
+
+aside {
+width: 160px;
+border: 1px solid #cccccc;
+border-radius: 5px;
+float: right;
+margin: 5px;
+}
+
+ul {
+margin: 5px;
+padding: 5px;
+list-style-type: none;
+}
+
+ul li {
+display: block;
+background-color: #33a4cc;
+border-radius: 5px;
+padding: 5px;
+margin: 5px;
+color: #fff;
+}
